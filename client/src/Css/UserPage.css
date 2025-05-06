@@ -1,0 +1,64 @@
+.user-page {
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #213f5c;
+    padding: 25px 20px;
+    color: white;
+  }
+  
+  .navbar .nav-left .logo {
+    font-weight: bold;
+  }
+  
+  .navbar .nav-right {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
+    gap: 30px;
+    padding: 50px;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .card-image {
+    font-size: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .card-body button {
+    margin-top: 10px;
+    background-color: #213f5c;
+    color: white;
+    padding: 15px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  @media (max-width: 900px) {
+    .card-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .card-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

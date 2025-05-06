@@ -1,0 +1,102 @@
+.login-container {
+    display: flex;
+    height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .login-left {
+    flex: 1;
+    height: 100vh;
+    background-color: #213f5c;
+    /* background-image: url('./../Assests/image.png'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+.left-text{
+    margin-top: 330px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+}
+
+
+  .login-right {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    color: #333;
+    font-size: large;
+  }
+  
+  .login-right h2 {
+    color: #213f5c;
+    margin-bottom: 10px;
+    font-size: 28px;
+  }
+  
+  .login-right p {
+    color: #888;
+    margin-bottom: 25px;
+    font-size: 16px;
+  }
+  
+  .login-right form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-right label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .login-right select,
+  .login-right input {
+    width: 70%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .login-right select:focus,
+  .login-right input:focus {
+    outline: none;
+    border-color: #213f5c;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+  }
+  
+  .forgot-password {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    color: #213f5c;
+    cursor: pointer;
+  }
+  
+  .login-right button {
+    width: 72%;
+    background-color: #213f5c;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-right button:hover {
+    background-color: #0056b3;
+  }
+  

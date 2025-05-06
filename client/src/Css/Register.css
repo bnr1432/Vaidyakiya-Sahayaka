@@ -1,0 +1,143 @@
+.Register-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: Arial, sans-serif;
+}
+
+.Register-left {
+  width: 50%;
+  background-color: #213f5c;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.left-text {
+  text-align: center;
+  margin-bottom: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.left-text h1,
+.left-text h2 {
+  margin: 10px 0;
+} 
+
+#s-name {
+  color: yellow;
+}
+
+.Register-right {
+  width: 50%;
+  background-color: #f1f1f1;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Register-right h2 {
+  margin-bottom: 10px;
+  color: tomato;
+}
+
+.Register-right p {
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #333;
+}
+
+.Register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.Register-form label {
+  font-weight: bold;
+}
+
+.Register-form input,
+.Register-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.side-by-side {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.side-by-side > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.btn-group button {
+  flex: 1;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #213f5c;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn-group button:hover {
+  background-color: #023e8a;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .Register-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .Register-left,
+  .Register-right {
+    width: 100%;
+    height: auto;
+  }
+
+  .Register-form {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .side-by-side {
+    flex-direction: column;
+  }
+
+  .btn-group {
+    flex-direction: column;
+  }
+
+  .btn-group button {
+    width: 100%;
+  }
+}

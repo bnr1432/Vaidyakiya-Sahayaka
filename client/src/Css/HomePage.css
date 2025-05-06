@@ -1,0 +1,95 @@
+.homepage-container {
+    background-image: url('./../Assests/image1.png');
+    /* background-color:#213f5c; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    font-family: Arial, sans-serif;
+    padding-top: 80px;
+  }
+
+  h2{
+    color:snow;
+  }
+  
+  .left-side {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .right-side {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .right-side .btn {
+    margin-left: 10px;
+  }
+  
+  .center-content {
+    margin-top: 150px;
+    text-align: center;
+    max-width: 1000px;
+  }
+  
+  .center-content h1 {
+    font-size: 48px;
+    color:tomato;
+    margin-bottom: 10px;
+  }
+  
+  .center-content p {
+    font-size: 18px;
+    color:white;
+  }
+  
+  .extra-text {
+    margin-top: 10px;
+    color: white;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:#005fa3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0785e0;
+  }
+  
+  .load-more-btn {
+    margin-top: 20px;
+  }
+  
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  @keyframes blink {
+    50% { border-color: transparent; }
+  }
+  
+  .typing-text {
+    font-size: 48px;
+    color: tomato;
+    overflow: hidden;              
+    white-space: nowrap;          
+    width: 0;              
+    animation: 
+      typing 3s steps(25, end) forwards,
+      blink 0.75s step-end infinite;
+  }
+  

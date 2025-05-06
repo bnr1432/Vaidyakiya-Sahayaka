@@ -1,0 +1,143 @@
+.admin-settings {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    background-color: #f7f9fc;
+  }
+  
+  .admin-settings .navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #003366;
+    color: white;
+    padding: 15px 25px;
+    align-items: center;
+  }
+  
+  .admin-settings .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .admin-settings .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .admin-settings .nav-right button {
+    padding: 8px 14px;
+    border: none;
+    background-color: #ff4d4f;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .admin-settings .nav-right button:hover {
+    background-color: #d9363e;
+  }
+  
+  .admin-settings .user-list {
+    background-color: white;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-settings .user-list h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .admin-settings table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+  }
+  
+  .admin-settings th,
+  .admin-settings td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .admin-settings th {
+    background-color: #f0f0f0;
+  }
+  
+  .admin-settings tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  .admin-settings button {
+    padding: 6px 12px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .admin-settings button:hover {
+    opacity: 0.9;
+  }
+  
+  .admin-settings button:nth-child(1) {
+    background-color: #1890ff;
+    color: white;
+  }
+  .admin-settings button:nth-child(2) {
+    background-color: #ff4d4f;
+    color: white;
+  }
+  
+  .admin-settings .edit-user {
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.1);
+  }
+  
+  .admin-settings .edit-user h3 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .admin-settings .edit-user form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .admin-settings .edit-user label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .admin-settings .edit-user input {
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .admin-settings .edit-user button {
+    width: 100px;
+    background-color: #52c41a;
+    color: white;
+  }
+  .admin-settings .edit-user button:hover {
+    background-color: #389e0d;
+  }
+  
+  .admin-settings ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    color: #555;
+  }
+  .admin-settings ul li {
+    margin-bottom: 5px;
+  }
+  

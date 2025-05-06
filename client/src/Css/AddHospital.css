@@ -1,0 +1,45 @@
+.add-hospital-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+  }
+  
+  .add-hospital-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .add-hospital-form input,
+  .add-hospital-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .add-hospital-form button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-hospital-form .cancel-button {
+    background-color: #dc3545;
+  }
+  
+  .add-hospital-form button:hover {
+    background-color: #218838;
+  }
+  
+  .add-hospital-form .cancel-button:hover {
+    background-color: #c82333;
+  }
+  
